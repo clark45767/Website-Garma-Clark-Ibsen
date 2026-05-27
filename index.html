@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeaLion Haven | Guardians of the Coast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo">SeaLion <span>Haven</span></div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#habitat">Habitat</a></li>
+                <li><a href="#facts">Fun Facts</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#conservation">Protect Them</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn">🌙</button>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Meet the <span>Sea Lions</span></h1>
+            <p class="tagline">Playful. Powerful. Essential to our oceans.</p>
+            <a href="#facts" class="btn">Discover More</a>
+        </div>
+        <img src="https://images.pexels.com/photos/18506506/pexels-photo-18506506.jpeg"
+            alt="Sea lion resting on rocks by the ocean" class="hero-image">
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h2>About Sea Lions</h2>
+        <div class="content-grid">
+            <div class="text-content">
+                <p>Sea lions are intelligent marine mammals known for their loud barks, playful nature, and incredible
+                    swimming abilities. Unlike seals, sea lions have visible ear flaps and can walk on land using their
+                    large flippers.</p>
+                <p>They are highly social animals that live in colonies and are found along the coasts of the Pacific
+                    Ocean.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABITAT -->
+    <section id="habitat" class="section">
+        <h2>Where They Live</h2>
+        <div class="habitat-grid">
+            <div class="info-card">
+                <h3>Coastal Waters</h3>
+                <p>From California to the Galápagos Islands and along the Pacific coast.</p>
+            </div>
+            <div class="info-card">
+                <h3>Rocky Shores</h3>
+                <p>They haul out on rocky beaches and docks to rest and sunbathe.</p>
+            </div>
+            <div class="info-card">
+                <h3>Deep Divers</h3>
+                <p>Can dive up to 600 feet (180 meters) deep in search of food.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FUN FACTS -->
+    <section id="facts" class="section">
+        <h2>Fun Facts</h2>
+        <button id="fact-button" class="btn">Show Random Fact</button>
+        <p id="random-fact" class="fact-display"></p>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section">
+        <h2>Sea Lion Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.pexels.com/photos/18247311/pexels-photo-18247311.jpeg"
+                alt="Sea lion swimming underwater" class="gallery-img">
+            <img src="https://images.pexels.com/photos/18506508/pexels-photo-18506508.jpeg"
+                alt="Group of sea lions on beach" class="gallery-img">
+            <img src="https://images.pexels.com/photos/19249734/pexels-photo-19249734.jpeg" alt="Sea lion barking"
+                class="gallery-img">
+            <img src="https://images.pexels.com/photos/18506506/pexels-photo-18506506.jpeg" alt="Baby sea lion pup"
+                class="gallery-img">
+        </div>
+    </section>
+
+    <!-- CONSERVATION -->
+    <section id="conservation" class="section">
+        <h2>Protect Sea Lions</h2>
+        <div class="conservation-content">
+            <p>Sea lions face threats from plastic pollution, overfishing, and climate change. You can help by reducing
+                single-use plastics and supporting marine conservation organizations.</p>
+            <button class="btn" onclick="alert('Thank you for caring about sea lions! 🌊')">Take the Pledge</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 SeaLion Haven • Educational Project for Empowerment Technology</p>
+        <button onclick="scrollToTop()" class="back-to-top">↑ Back to Top</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
